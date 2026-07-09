@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  flaskapp-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-07-09T17:35:10.507313+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 6cbf64920b7fb675ee92cca140bb47876c00d0e3c894864f5c21d48f4e6b7180
+    name: flaskapp-chart
+    type: application
+    urls:
+    - https://nsalexamy.github.io/helm-charts/flaskapp-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-07-09T17:35:10.506447+02:00"
