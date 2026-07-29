@@ -3,7 +3,7 @@ entries:
   flaskapp-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-07-29T11:11:11.550933+02:00"
+    created: "2026-07-29T11:32:22.235879+02:00"
     description: A Helm chart for Kubernetes
     digest: 7cbeac1aa2f204e4b6c1a316ec54027fb0eb713ea53289c594142bbf42b65172
     name: flaskapp-chart
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://danielebottino.github.io/helm_deployment/flaskapp-chart-0.1.2.tgz
     version: 0.1.2
-generated: "2026-07-29T11:11:11.549597+02:00"
+generated: "2026-07-29T11:32:22.23419+02:00"
