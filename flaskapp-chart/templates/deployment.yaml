@@ -26,7 +26,7 @@ spec:
       initContainers:
         - name: check-haproxy-container
           image: busybox
-          command: ['sh', '-c', 'until nslookup route-haproxy-default.apps-crc.testing; echo searching the HAProxy Service...; sleep 2; done;']
+          command: ['sh', '-c', 'until nslookup route-haproxy-default.apps-crc.testing; do echo searching the HAProxy Service...; sleep 2; done;']
       {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
         {{- toYaml . | nindent 8 }}
